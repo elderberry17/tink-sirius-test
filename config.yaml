@@ -1,2 +1,4 @@
-# your bot token
-token:
+token: 6436912384:AAH3JzKe0Cl8KGamCUcPBFcWK3pw7jt78dM
+download_model_url: https://drive.google.com/file/d/1-BaMp9zrU83bqGUKqX_S5ppZRj3CPRql/view?usp=sharing
+directory_for_model: ruDialoGPT-medium-finetuned
+model_subdir_name: stepan_gpt_10epochs
