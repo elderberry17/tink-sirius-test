@@ -5,7 +5,7 @@ FROM python:3.8
 WORKDIR /app
 
 # Copy the files to the working directory in the container
-COPY download_finetuned_model.py unzip_finetuned_model.py chat_bot.py ../requirements.txt config.yaml /app/
+COPY download_finetuned_model.py unzip_finetuned_model.py model_functionality.py chat_bot.py requirements.txt config.yaml /app/
 
 # Install the Python dependencies
 RUN pip install --upgrade pip

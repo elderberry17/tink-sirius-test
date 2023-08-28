@@ -4,3 +4,5 @@ gdown==4.7.1
 torch==1.11.0
 telebot
 zipfile36
+# streamlit_chat
+# streamlit==1.24.0
