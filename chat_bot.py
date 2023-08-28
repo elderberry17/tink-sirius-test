@@ -1,15 +1,16 @@
+import os
 import re
 
 import telebot
 import yaml
 from transformers import AutoTokenizer, AutoModelWithLMHead
 from yaml.loader import SafeLoader
-import os
 
-with open('config.yaml') as f:
+with open('../config.yaml') as f:
     conf = yaml.load(f, Loader=SafeLoader)
 
 bot = telebot.TeleBot(conf['token'])
+
 
 def get_bot_answer(text_input: str) -> str:
     global model, tokenizer
@@ -47,7 +48,7 @@ def postprocess_bot_answer(answer):
             result = re.search(regex2, answer)
             extracted_string = result.group(1)
         except AttributeError:
-            extracted_string = 'Я сейчас чуть не упал'
+            extracted_string = f'Все говорят {answer}, а ты купи слона?'
 
     return extracted_string
 
