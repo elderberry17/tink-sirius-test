@@ -20,7 +20,7 @@ if __name__ == '__main__':
         model = AutoModelWithLMHead.from_pretrained(os.path.join(model_dir, model_subdir))
 
     user_message = st.chat_input('Say smth:')
-    print(user_message)
+    # print(user_message)
     if user_message:
         with st.chat_message("User"):
             st.write(user_message)

@@ -4,7 +4,6 @@ import telebot
 import yaml
 from transformers import AutoTokenizer, AutoModelWithLMHead
 from yaml.loader import SafeLoader
-import torch
 
 from model_functionality import get_model_answer, postprocess_model_answer
 
