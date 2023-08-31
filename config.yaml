@@ -1,4 +1,4 @@
 token: 6267176259:AAFW5cZZuvKBr0qrdp32ORAa04dg3OhsqYY
 download_model_url: https://drive.google.com/file/d/1hut66QnXpvYARpkUEGV8cHXyn9rfW5Mf/view?usp=sharing
 directory_for_model: ruDialoGPT-medium-finetuned
-model_subdir_name: stepan_gpt_10epochs
+model_subdir_name: sns_gpt_3epochs
