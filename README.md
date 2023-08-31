@@ -8,7 +8,7 @@
 
     ```git clone https://github.com/elderberry17/tink-sirius-test.git```
     
-    ```cd tink-sirius-test``` 
+    ```cd tink-sirius-test```
 
 ***1) Запуск бота:***
    
