@@ -5,6 +5,7 @@
 В качестве обертки для модели я написал телеграм-бота (@tins_sirius_sns_bot) и создал простое web-приложение с помощью фреймворка ```streamlit```
 
 ***0) Для начала:***
+
     ```git clone https://github.com/elderberry17/tink-sirius-test.git```
     
     ```cd tink-sirius-test``` 
