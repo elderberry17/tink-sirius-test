@@ -6,22 +6,25 @@
 
 ***0) Для начала:***
     ```git clone https://github.com/elderberry17/tink-sirius-test.git```
+    
     ```cd tink-sirius-test``` 
 
 ***1) Запуск бота:***
    
    ```docker build -t tink_sns_bot -f Dockerfile.bot .```
+   
    ```docker run tink_sns_bot```
 
 ***2) Запуск веб-приложения:***
 
    ```docker build -t tink_sns_web -f Dockerfile.web .```
+   
    ```docker run tink_sns_web```
 
 ### 2. Эксперименты
    
 В процессе дообучения я использовал данный google colab:
-https://colab.research.google.com/drive/1sFN7icpln-hEFZskYOE3dYppqIe54gI7?usp=sharing
+https://clck.ru/35XhGD
 
 Я пробовал дообучать модель на разных данных: переписках с друзьями, учебных чатах, чатах профессиональных коммьюнити.
 В итоге я остановился на 3-х вариантах, в раз захостил несколько версий бота с помощью сервиса ```beget``` (https://beget.com/ru) и устроил тестирование с помощью друзей.
